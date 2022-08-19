@@ -1,0 +1,6 @@
+ECHO OFF
+ECHO 9 >> "1.BAT"
+ECHO 9 >> "2.BAT"
+ECHO CD / >> "9.BAT"
+ECHO CLS >> "9.BAT"
+1
