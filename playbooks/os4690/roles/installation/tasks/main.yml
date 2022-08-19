@@ -27,7 +27,7 @@
 
 - name: Download Toshiba Nexus Package ACE From Nexus
   get_url:
-    url: "{{nexus_url2}}/repository/tgcs-maven-snapshot/com/toshibacommerce/ace/ACE3D001/V8R1SP2.{{level_name}}-SNAPSHOT/ACE3D001-V8R1SP2.{{level_complement}}.zip"
+    url: "{{nexus_url2}}/repository/tgcs-maven-snapshot/com/toshibacommerce/ace/ACE3D001/V8R2.{{level_name}}-SNAPSHOT/ACE3D001-V8R2.{{level_complement}}.zip"
     dest: "{{landing_zone}}"
 
 - name: Copy Files In UINSTALL y ACE3D
